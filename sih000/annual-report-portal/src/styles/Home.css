@@ -1,0 +1,308 @@
+/* Home.css */
+
+.home-banner {
+    background-image: url('https://via.placeholder.com/1500x400'); /* Replace with your banner image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 1.5rem;
+}
+
+/* Performance Sections */
+.performance-sections {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.performance-sections h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.performance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.performance {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.performance:hover {
+    transform: translateY(-5px);
+}
+
+.performance h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.performance p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.performance ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.performance ul li {
+    margin-bottom: 8px;
+}
+
+.performance ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.performance ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Home.css */
+
+/* Existing styles omitted for brevity */
+
+/* Department Sections */
+.department-sections {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.department-sections h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.department-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.department {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.department:hover {
+    transform: translateY(-5px);
+}
+
+.department h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.department p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.department ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.department ul li {
+    margin-bottom: 8px;
+}
+
+.department ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.department ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Home.css */
+
+/* Existing styles omitted for brevity */
+
+/* About Section */
+.about-section {
+    padding: 40px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Performance Sections */
+.performance-sections {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+/* Other existing styles omitted for brevity */
+/* Home.css */
+
+/* Existing styles omitted for brevity */
+
+/* Major Changes Section */
+.major-changes-section {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.major-changes-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #007bff;
+}
+
+.changes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.change-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.change-item:hover {
+    transform: translateY(-5px);
+}
+
+.change-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.change-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Home.css */
+
+/* Existing styles omitted for brevity */
+
+/* Leadership Section */
+.leadership-section {
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.leadership-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #007bff;
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.leader {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.leader h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.leader p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Major Changes Section */
+.major-changes-section {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+/* Other existing styles omitted for brevity */
+
